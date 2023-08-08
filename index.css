@@ -361,6 +361,7 @@ body:not(.user-is-tabbing) a:focus {
     .nav__item:not(:last-child) {
         margin-right: var(--gutter-normal);
     }
+    
 }
 
 @media(max-width: 300px) {
@@ -424,7 +425,8 @@ body:not(.user-is-tabbing) a:focus {
     margin: 1.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
     font-family: 'Jost', sans-serif;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
+    
 }
 
 @media(max-width: 500px) {
@@ -433,7 +435,8 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .header__text p {
-        transform: scale(.8);
+        transform: scale(.7);
+        
     }
 }
 
