@@ -417,7 +417,7 @@ body:not(.user-is-tabbing) a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  transform: translateY(20%);
+  transform: translateY(0%);
 }
 
 .header__text p {
