@@ -174,7 +174,7 @@ h3 {
 
 p {
   margin: var(--gutter-small) 0;
-  text-align: justify;
+  text-align: left;
 }
 
 @media (max-width: 900px) {
